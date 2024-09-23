@@ -12,7 +12,7 @@ window.addEventListener('scroll', function(){
         Nav.classList.add("backdrop-blur-md")
     }else{
         Navbar.classList.remove('bg-opacity-40');
-        Nav('nav').classList.remove("backdrop-blur-md")
+        Nav.classList.remove("backdrop-blur-md")
     }
 })
 
