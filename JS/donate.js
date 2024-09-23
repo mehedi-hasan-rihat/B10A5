@@ -28,7 +28,7 @@ function donateNow(currentBalancePara,donationBalancePara, title){
     const historyArea = elementById("history");
     historyArea.innerHTML += `<div class="border my-3 py-6 px-8 rounded-lg">
         <div class="font-bold pb-2">
-          ${donationBalanceValue} Taka is Donated for ${title}
+          ${donationBalanceValue.toFixed(2)} Taka is Donated for ${title}
         </div>
         <div class="text-gray-500 ">Date : ${new Date()}</div>
       </div>`
