@@ -22,6 +22,8 @@ function donateNow(currentBalancePara,donationBalancePara, title){
     mainBalance.innerText = currentMainBalance;
     const currentTotallBalance = donationBalanceValue + currentBalanceValue;
     currentBalance.innerText = currentTotallBalance;
+    
+    my_modal_2.showModal()
 
     const historyArea = elementById("history");
     historyArea.innerHTML += `<div class="border my-3 py-6 px-8 rounded-lg">
