@@ -19,9 +19,9 @@ function donateNow(currentBalancePara,donationBalancePara, title){
         return;
     }
 
-    mainBalance.innerText = currentMainBalance;
+    mainBalance.innerText = currentMainBalance.toFixed(2);
     const currentTotallBalance = donationBalanceValue + currentBalanceValue;
-    currentBalance.innerText = currentTotallBalance;
+    currentBalance.innerText = currentTotallBalance.toFixed(2);
     
     my_modal_2.showModal()
 
