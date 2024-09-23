@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                blogBtn : "#B4F461",
+                navBg : '#F9F7F3',
+                gray1: '#F5F5F5'
+              }
+            },
+            font: {
+                fontLex: "Lexend",
+            }
+          }
+        }
+      </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    
+
+</head>
+<body class="font-fontLex">
+    
+     <!-- Navbar section start -->
+    <nav class="">
+        <div class="py-5 bg-navBg">
+          <div class="flex justify-between container mx-auto font-bold p-2">
+              <div class="hidden  sm:block">
+                <a href="./Index.html"><button class="btn bg-blogBtn px-5">Home</button></a>
+            </div>
+              <div class="flex items-center gap-4">
+                  <img src="./assets//logo.png" alt="Logo">
+                 
+                  <p class="">Donate Bangladesh</p>
+              </div>
+              <div class="flex items-center gap-2">
+                  <img src="./assets/coin.png" alt="Coin Img">
+  
+                  <p class="mainBalance ">5500</p>
+                  <p>BDT</p>
+              </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- FAQ section start -->
+    <div class="container mx-auto my-5 p-2">
+        <div class="flex gap-4 my-8">
+            <p class="text-4xl font-bold">Important FAQ</p>
+            <img class="w-10" src="./assets/faq.png"/>
+        </div>
+        <div class="join join-vertical w-full">
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What is Document Object Model (DOM)?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div class="collapse-title text-xl font-medium">What is event delegationin the context of the DOM, and why is it usefull?</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-arrow join-item border-base-300 border">
+            <input type="radio" name="my-accordion-4" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes ans styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>
