@@ -90,19 +90,18 @@
 
                 <button class="btn bg-blogBtn w-full font-bold " id="donateBtn">Donate Now</button>
 
-                <dialog id="my_modal_2" class="modal">
-                  <div class="modal-box text-center">
-                    <h3 class="text-2xl font-extrabold">Congrates!</h3>
-                    <div class="flex justify-center my-5">
-                      <img src="./assets/coin.png"/>
+                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle ">
+                  <div class="modal-box text-center flex flex-col items-center max-w-96">
+                    <h3 class="text-3xl font-bold mb-3">Congrates!</h3>
+                    <img src="./assets//coin.png" alt="coin"/>
+                    <p class="mt-6 mb-3 font-semibold">You Have Donated for Humankind</p>
+                    <p class="font-xl font-bold">Succesfully</p>
+                    <div class="modal-action">
+                      <form method="dialog">
+                        <button class="btn font-bold">Close Confirmation</button>
+                      </form>
                     </div>
-                    <p class="py-2 font-semibold">You Have Donated for Humankind</p>
-                    <p class="text-md font-bold">Successfully</p>
                   </div>
-
-                  <form method="dialog" class="modal-backdrop">
-                    <button>close</button>
-                  </form>
                 </dialog>
 
           </div>
@@ -167,7 +166,10 @@
     </section>
 
      <!-- History section start -->
-    <div class="container hidden mx-auto p-2" id="history"></div>
+    <div class="container hidden mx-auto p-2 min-h-[520px]" id="history"></div>
+
+
+    <div class="bg-navBg h-44"></div>
     
   <script src="./JS/getElement.js"></script>
   <script src="./JS/donate.js"></script>
